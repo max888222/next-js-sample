@@ -1,5 +1,13 @@
-"scripts": {
-  "dev": "next dev",
-  "build": "next build && cp -r public .next/standalone/ && cp -r .next/static .next/standalone/.next/",
-  "start": "node .next/standalone/server.js"
+{
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build && cp -r public .next/standalone/ && cp -r .next/static .next/standalone/.next/",
+    "start": "node .next/standalone/server.js"
+  },
+  "dependencies": {
+    "next": "latest",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
+  }
 }
